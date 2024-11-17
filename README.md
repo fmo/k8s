@@ -8,4 +8,5 @@ Kubernetes has 2 nodes mainly
     API server in the control plane
   * API Server - This is the Kubernetes cluster API endpoint that provides unified access to end users for Kubernetes management. You can manage your Kubernetes resources or maintain Kubernetes nodes through this component
     with the help of kubectl
+  * Scheduler - Whenever you try to deploy a pod, it will be scheduled to an available node based on resource requirements. 
 * Worker nodes
