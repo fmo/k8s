@@ -4,4 +4,6 @@ All about k8s
 Kubernetes has 2 nodes mainly
 
 * Control plane nodes
+  * Kubectl: Command-line application for Kubernetes, that allows you to manage your resources and K8s cluster nodes. Its primary responsibility is providing a simple interface to the end user while interacting with the
+    API server in the control plane 
 * Worker nodes
