@@ -13,4 +13,5 @@ Kubernetes has 2 nodes mainly
      numeric functions that return a score between 0 and 10 for each node. They are used to implement the scoring logic.</p>
   * Controller manager - The Kubernetes Controller Manager runs control loops that ensure the cluster's actual state matches the desired state, handling tasks like node health, pod replicas, and service accounts.
   * etcd - In Kubernetes, etcd is a distributed key-value store that holds the entire cluster state, including nodes, pods, services, and configurations. It ensures consistency and reliability using the Raft consensus algorithm.
+  * kubelet - This worker node component is in contact with the API server, and its primary responsibility is to track the state of pod specification. It coninuously checks the pod, ensures underlying containers are healthy, and reports to control plane.
 * Worker nodes
