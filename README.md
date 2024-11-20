@@ -14,4 +14,5 @@ Kubernetes has 2 nodes mainly
   * Controller manager - The Kubernetes Controller Manager runs control loops that ensure the cluster's actual state matches the desired state, handling tasks like node health, pod replicas, and service accounts.
   * etcd - In Kubernetes, etcd is a distributed key-value store that holds the entire cluster state, including nodes, pods, services, and configurations. It ensures consistency and reliability using the Raft consensus algorithm.
   * kubelet - This worker node component is in contact with the API server, and its primary responsibility is to track the state of pod specification. It coninuously checks the pod, ensures underlying containers are healthy, and reports to control plane.
+  * kube-proxy - In Kubernetes, kube-proxy is a network component that manages networking for Kubernetes services on each node. It handles the communication between pods and services by maintaining network rules. (Service Discovery, Load Balancing, Network Rules Management) 
 * Worker nodes
